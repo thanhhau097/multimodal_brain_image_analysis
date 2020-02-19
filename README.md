@@ -15,6 +15,7 @@
         - https://wiki.cancerimagingarchive.net/display/DOI/Segmentation+Labels+and+Radiomic+Features+for+the+Pre-operative+Scans+of+the+TCGA-LGG+collection
     - From other sites:
         - https://paperswithcode.com/task/brain-tumor-segmentation
+        - https://www.frontiersin.org/articles/10.3389/fncom.2019.00083/full
         - BRATS 2018:
             - https://arxiv.org/pdf/1810.11654v3.pdf (top 1)
             - https://link.springer.com/chapter/10.1007%2F978-3-030-11726-9_21 (top 2)
