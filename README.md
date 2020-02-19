@@ -19,6 +19,7 @@
 
 - Github:
     - https://github.com/JooHyun-Lee/BraTs
+    - https://github.com/JunMa11/SOTA-MedSeg
 
 ## Application of Medical Image Overview
 I do a summarization of application from MICCAI 2019 papers [here](./research/application_medical_overview.md)
