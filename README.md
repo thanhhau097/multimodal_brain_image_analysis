@@ -1,7 +1,11 @@
 # Multimodal Brain Tumor Segmentation 
 
 ## Documents
-- Data: http://braintumorsegmentation.org/ (all BRatS data), 
+- Data: 
+    - http://braintumorsegmentation.org/ (all BRatS data)
+    - https://github.com/BraTS/Instructions/blob/master/data_formats.md
+- Docker from previous implementation:
+    - hub.docker.com/u/brats/
 - Documents:
     - From https://www.med.upenn.edu/cbica/brats2019/registration.html
         - https://arxiv.org/pdf/1811.02629.pdf
