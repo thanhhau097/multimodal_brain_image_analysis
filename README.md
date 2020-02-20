@@ -34,6 +34,7 @@
 - Github:
     - https://github.com/JooHyun-Lee/BraTs
     - https://github.com/JunMa11/SOTA-MedSeg
+    - https://github.com/xf4j/brats18
 
 ## Literature Review
 Excel file can be found [here](https://docs.google.com/spreadsheets/d/1M98qnhK85EqXm91nIv08I58I3GaLlqv6hfQQyXoKp3U/edit#gid=1016976313-)
