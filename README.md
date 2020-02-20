@@ -1,5 +1,13 @@
 # Multimodal Brain Tumor Segmentation 
 
+## IDEA
+- Use techniques of previous research
+- Design new loss function (using the idea of previous paper)
+- Reduce size of models
+- Handle the open problems of previous research
+- Design new model
+
+
 ## Documents
 - Data: 
     - http://braintumorsegmentation.org/ (all BRatS data)
