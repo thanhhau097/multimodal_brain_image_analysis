@@ -5,7 +5,7 @@
 - Design new loss function (using the idea of previous paper)
 - Reduce size of models
 - Handle the open problems of previous research
-- Design new model
+- Design new model: cascaded, because they are overlap
 
 
 ## Documents
