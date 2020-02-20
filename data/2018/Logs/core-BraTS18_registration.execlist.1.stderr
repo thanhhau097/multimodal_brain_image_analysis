@@ -1,0 +1,5 @@
+[ 1 page * 1 copy ] left in /scratch/ipp/tmp.su1ZHIRT87/REGISTRATION_STATUS.ps
+7 lines were wrapped
+mv: '/scratch/ipp/tmp.su1ZHIRT87/ps-files/REGISTRATION_STATUS.ps' and '/scratch/ipp/tmp.su1ZHIRT87/ps-files/REGISTRATION_STATUS.ps' are the same file
+mv: '/scratch/ipp/tmp.su1ZHIRT87/pdf-files/REGISTRATION_STATUS.pdf' and '/scratch/ipp/tmp.su1ZHIRT87/pdf-files/REGISTRATION_STATUS.pdf' are the same file
+rmdir: failed to remove '/scratch/ipp/tmp.su1ZHIRT87': Directory not empty

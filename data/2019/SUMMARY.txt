@@ -1,0 +1,7 @@
+CBICA IPP Application:	BraTS19_registration
+Created At:	2020-02-20T02:56:05.031Z
+Experiment Name:	Lionel
+Commands to execute:
+----------
+	/cbica/home/IPP/BraTS_2019/bin/brats19_registration.sh -a "The University of Sydney" -c Sydney -g Australia -n Lionel -f "Thanh Hau" -e thanh.h.nguyen@sydney.edu.au -l Nguyen -t /cbica/home/IPP/BraTS_2019/var/brats19_registration_masterlist.csv -o /cbica/home/IPP/IPP-users/165953573204479159/Experiments/423205672904489093/Results -d /cbica/home/IPP/BraTS_2019/ReferenceDir/Registrations -r Student 
+
