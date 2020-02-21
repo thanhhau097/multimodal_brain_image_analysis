@@ -51,7 +51,6 @@ Code references:
 - https://github.com/China-LiuXiaopeng/BraTS-DMFNet
 - https://github.com/shiba24/3d-unet
 - https://github.com/xf4j/brats18/tree/master/models
-- https://github.com/taigw/brats17
 
 
 |                    | Technique                      | Result | Note |
