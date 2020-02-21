@@ -50,6 +50,6 @@ Excel file can be found [here](https://docs.google.com/spreadsheets/d/1M98qnhK85
 - preprocessing data: normalize, n4itk, multiscale,
 - model architecture: ASPP, cascade, VAE...
 - loss function: focal loss,...
-- postprocessing data
+- postprocessing data: CRF, ensemble
 ## Application of Medical Image Overview
 I do a summarization of application from MICCAI 2019 papers [here](./research/application_medical_overview.md)
