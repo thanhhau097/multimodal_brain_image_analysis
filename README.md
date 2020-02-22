@@ -13,10 +13,10 @@
 
 ## Experiments
 Code references:
-- https://github.com/pykao/BraTS2018-tumor-segmentation
-- https://github.com/China-LiuXiaopeng/BraTS-DMFNet
-- https://github.com/shiba24/3d-unet
-- https://github.com/xf4j/brats18/tree/master/models
+- https://github.com/pykao/BraTS2018-tumor-segmentation: models, criterions, transforms
+- https://github.com/MIC-DKFZ/BraTS2017: dataset
+- https://github.com/China-LiuXiaopeng/BraTS-DMFNet: ***main***
+- https://github.com/xf4j/brats18/tree/master/models: (pre_processingN4ITK)
 
 
 |                    | Technique                      | Result | Note |
