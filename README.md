@@ -19,27 +19,28 @@ Code references:
 - https://github.com/xf4j/brats18/tree/master/models: (pre_processingN4ITK)
 
 
-|                    | Technique                      | Result | Note |
-|--------------------|--------------------------------|--------|------|
-| Original           | Original  + Normalize          |        |      |
-| Preprocessing      |                                |        |      |
-|                    | N4ITK                          |        |      |
-|                    | multiscale                     |        |      |
-|                    | domain adaption                |        |      |
-|                    | other transforms               |        |      |
-| Model Architecture |                                |        |      |
-|                    | VAE                            |        |      |
-|                    | Cascade end-to-end             |        |      |
-|                    | Cascade seperately             |        |      |
-|                    | ASPP                           |        |      |
-|                    | Increase network width         |        |      |
-|                    | Attention with SE block        |        |      |
-|                    | parallel model training (7)    |        |      |
-| Loss Function      |                                |        |      |
-|                    | Focal loss                     |        |      |
-|                    | Soft loss                      |        |      |
-| Post processing    |                                |        |      |
-|                    | CRF                            |        |      |
+|                    | Technique                      |  UNet  | ResUnet | Note |
+|--------------------|--------------------------------|--------|---------|------|
+| Original           | Original  + Normalize          |        |         |      |
+| Preprocessing      |                                |        |         |      |
+|                    | N4ITK                          |        |         |      |
+|                    | multiscale                     |        |         |      |
+|                    | domain adaption                |        |         |      |
+|                    | other transforms               |        |         |      |
+| Model Architecture |                                |        |         |      |
+|                    | VAE                            |        |         |      |
+|                    | Cascade end-to-end             |        |         |      |
+|                    | Cascade seperately             |        |         |      |
+|                    | ASPP                           |        |         |      |
+|                    | Increase network width         |        |         |      |
+|                    | Attention with SE block        |        |         |      |
+|                    | parallel model training (7)    |        |         |      |
+| Loss Function      |                                |        |         |      |
+|                    | Focal loss                     |        |         |      |
+|                    | Soft loss                      |        |         |      |
+| Post processing    |                                |        |         |      |
+|                    | CRF                            |        |         |      |
 
 ## Application of Medical Image Overview
 I do a summarization of application from MICCAI 2019 papers [here](./research/application_medical_overview.md)
+      |
