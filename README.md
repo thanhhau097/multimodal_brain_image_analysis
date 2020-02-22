@@ -13,11 +13,11 @@
 
 ## Experiments
 Code references:
-- https://github.com/pykao/BraTS2018-tumor-segmentation: models, criterions, transforms [1](https://github.com/pykao/BraTS2018-tumor-segmentation)
+- https://github.com/pykao/BraTS2018-tumor-segmentation: models, criterions, transforms [[1](https://github.com/pykao/BraTS2018-tumor-segmentation)]
 - https://github.com/MIC-DKFZ/BraTS2017: dataset
 - https://github.com/China-LiuXiaopeng/BraTS-DMFNet: ***main***
 - https://github.com/xf4j/brats18/tree/master/models: (pre_processingN4ITK)
-- https://github.com/wolny/pytorch-3dunet [2](https://github.com/wolny/pytorch-3dunet)
+- https://github.com/wolny/pytorch-3dunet [[2](https://github.com/wolny/pytorch-3dunet)]
 
 
 |                    | Technique                      | UNet[1]| ResUnet | UNet[2]| Note |
