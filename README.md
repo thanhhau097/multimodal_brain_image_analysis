@@ -13,33 +13,35 @@
 
 ## Experiments
 Code references:
-- https://github.com/pykao/BraTS2018-tumor-segmentation
-- https://github.com/China-LiuXiaopeng/BraTS-DMFNet
-- https://github.com/shiba24/3d-unet
-- https://github.com/xf4j/brats18/tree/master/models
+- https://github.com/pykao/BraTS2018-tumor-segmentation: models, criterions, transforms [[1](https://github.com/pykao/BraTS2018-tumor-segmentation)]
+- https://github.com/MIC-DKFZ/BraTS2017: dataset
+- https://github.com/China-LiuXiaopeng/BraTS-DMFNet: ***main***
+- https://github.com/xf4j/brats18/tree/master/models: (pre_processingN4ITK)
+- https://github.com/wolny/pytorch-3dunet [[2](https://github.com/wolny/pytorch-3dunet)]
 
 
-|                    | Technique                      | Result | Note |
-|--------------------|--------------------------------|--------|------|
-| Original           | Original  + Normalize          |        |      |
-| Preprocessing      |                                |        |      |
-|                    | N4ITK                          |        |      |
-|                    | multiscale                     |        |      |
-|                    | domain adaption                |        |      |
-|                    | other transforms               |        |      |
-| Model Architecture |                                |        |      |
-|                    | VAE                            |        |      |
-|                    | Cascade end-to-end             |        |      |
-|                    | Cascade seperately             |        |      |
-|                    | ASPP                           |        |      |
-|                    | Increase network width         |        |      |
-|                    | Attention with SE block        |        |      |
-|                    | parallel model training (7)    |        |      |
-| Loss Function      |                                |        |      |
-|                    | Focal loss                     |        |      |
-|                    | Soft loss                      |        |      |
-| Post processing    |                                |        |      |
-|                    | CRF                            |        |      |
+|                    | Technique                      | UNet[1]| ResUnet | UNet[2]| Note |
+|--------------------|--------------------------------|--------|---------|--------|------|
+| Original           | Original  + Normalize          |        |         |        |      |
+| Preprocessing      |                                |        |         |        |      |
+|                    | N4ITK                          |        |         |        |      |
+|                    | multiscale                     |        |         |        |      |
+|                    | domain adaption                |        |         |        |      |
+|                    | other transforms               |        |         |        |      |
+| Model Architecture |                                |        |         |        |      |
+|                    | VAE                            |        |         |        |      |
+|                    | Cascade end-to-end             |        |         |        |      |
+|                    | Cascade seperately             |        |         |        |      |
+|                    | ASPP                           |        |         |        |      |
+|                    | Increase network width         |        |         |        |      |
+|                    | Attention with SE block        |        |         |        |      |
+|                    | parallel model training (7)    |        |         |        |      |
+| Loss Function      |                                |        |         |        |      |
+|                    | Focal loss                     |        |         |        |      |
+|                    | Soft loss                      |        |         |        |      |
+| Post processing    |                                |        |         |        |      |
+|                    | CRF                            |        |         |        |      |
 
 ## Application of Medical Image Overview
 I do a summarization of application from MICCAI 2019 papers [here](./research/application_medical_overview.md)
+      |
