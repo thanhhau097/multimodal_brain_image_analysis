@@ -10,6 +10,7 @@
 - Reduce size of models
 - Handle the open problems of previous research
 - Design new model: cascaded, because they are overlap
+- Multi-stage DMF
 
 ## Experiments
 My code is located at: https://github.com/thanhhau097/pytorch-3dunet which was folked from https://github.com/wolny/pytorch-3dunet with modification.
