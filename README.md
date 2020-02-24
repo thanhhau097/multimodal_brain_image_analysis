@@ -21,6 +21,10 @@ Code references:
 - https://github.com/xf4j/brats18/tree/master/models: (pre_processingN4ITK)
 - https://github.com/wolny/pytorch-3dunet [[2](https://github.com/wolny/pytorch-3dunet)]
 
+### Step-by-Step
+1. Train model with only WT label, try to improve it.
+2. Train model will all labels, in parallel/separate-cascade/end2end cascade
+
 
 |                    | Technique                      | UNet[1]| ResUnet | UNet[2]| Note |
 |--------------------|--------------------------------|--------|---------|--------|------|
