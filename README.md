@@ -15,11 +15,14 @@
 My code is located at: https://github.com/thanhhau097/pytorch-3dunet which was folked from https://github.com/wolny/pytorch-3dunet with modification.
 
 Code references:
-- https://github.com/pykao/BraTS2018-tumor-segmentation: models, criterions, transforms [[1](https://github.com/pykao/BraTS2018-tumor-segmentation)]
-- https://github.com/MIC-DKFZ/BraTS2017: dataset
-- https://github.com/China-LiuXiaopeng/BraTS-DMFNet: ***main***
+- ~~https://github.com/pykao/BraTS2018-tumor-segmentation: models, criterions, transforms [[1](https://github.com/pykao/BraTS2018-tumor-segmentation)]~~
+- ~~https://github.com/MIC-DKFZ/BraTS2017: dataset~~
+- https://github.com/China-LiuXiaopeng/BraTS-DMFNet: ***main*** (3)
 - https://github.com/xf4j/brats18/tree/master/models: (pre_processingN4ITK)
-- https://github.com/wolny/pytorch-3dunet [[2](https://github.com/wolny/pytorch-3dunet)]
+- https://github.com/wolny/pytorch-3dunet [[2](https://github.com/wolny/pytorch-3dunet)] (5)
+
+### Difference between (3) and (5), what things in (3) should be integrate into (5)?
+- Customized preprocessing data
 
 ### Step-by-Step
 1. Train model with only WT label, try to improve it 
