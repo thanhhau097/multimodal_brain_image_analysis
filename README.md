@@ -22,7 +22,9 @@ Code references:
 - https://github.com/wolny/pytorch-3dunet [[2](https://github.com/wolny/pytorch-3dunet)]
 
 ### Step-by-Step
-1. Train model with only WT label, try to improve it.
+1. Train model with only WT label, try to improve it 
+      1.1 with original Unet, try to modify loss function, preprocessing data,... to get best loss function and data.
+      1.2 With modified architecture
 2. Train model will all labels, in parallel/separate-cascade/end2end cascade
 
 
