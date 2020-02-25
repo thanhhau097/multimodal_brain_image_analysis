@@ -1,6 +1,6 @@
 # Multimodal Brain Tumor Segmentation 
 
-## [Medical Application Overview](./research/application_medical_overview.md)
+## [Medical Application Overview](./research/application_medical_overview.md) (optional, no need to read)
 ## [Documents](./research/documents.md)
 ## [Literature Review](./research/literature_review.md)
 
