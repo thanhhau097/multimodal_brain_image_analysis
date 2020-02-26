@@ -29,15 +29,13 @@ Code references:
 3. Integrate into 3dUnetPytorch repo.
 4. Start training using 3dUnetPytorch repo.
 
+### Other plan
+1. Train model, try to improve it 
+2. with original model, try to modify loss function, preprocessing data,... to get best loss function and data.
+3. With modified architecture
 
 
-1. Train model with only WT label, try to improve it 
-      1.1 with original model, try to modify loss function, preprocessing data,... to get best loss function and data.
-      1.2 With modified architecture
-2. Train model will all labels, in parallel/separate-cascade/end2end cascade
-
-
-|                    | Technique                      | Org DMF| TBD     | TBD    | Note |
+|                    | Technique                      |Org Unet| TBD     | TBD    | Note |
 |--------------------|--------------------------------|--------|---------|--------|------|
 | Original           | Original  + Normalize          |        |         |        |      |
 | Preprocessing      |                                |        |         |        |      |
