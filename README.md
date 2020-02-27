@@ -19,17 +19,12 @@ Code references:
 - https://github.com/xf4j/brats18/tree/master/models: (pre_processingN4ITK)
 - https://github.com/wolny/pytorch-3dunet [[2](https://github.com/wolny/pytorch-3dunet)] (5)
 
-### Difference between (3) and (5), what things in (3) should be integrate into (5)?
-- Customized preprocessing data
-
 ### Step-by-Step
 
 1. Load pretrained DMF model and check loss, dice 
 2. train DMF model to check if we can get same result
-3. Integrate into 3dUnetPytorch repo.
-4. Start training using 3dUnetPytorch repo.
 
-### Other plan
+### Next plan
 1. Train model, try to improve it 
 2. with original model, try to modify loss function, preprocessing data,... to get best loss function and data.
 3. With modified architecture
