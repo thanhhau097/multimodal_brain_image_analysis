@@ -24,6 +24,10 @@ Code references:
 2. Modify architecture 
 3. Try other loss function
 
+| Model |    |  1 |    |    |  2 |    |    |  3 |    |    |  4 |    |    |  5 |    |    | Average |    |
+|:-----:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:-------:|:--:|
+|       | WT | TC | ET | WT | TC | ET | WT | TC | ET | WT | TC | ET | WT | TC | ET | WT |    TC   | ET |
+|  DMF  |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |         |    |
 
 ## Application of Medical Image Overview
 I do a summarization of application from MICCAI 2019 papers [here](./research/application_medical_overview.md)
