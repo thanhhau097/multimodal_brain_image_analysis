@@ -24,6 +24,7 @@ Code references:
 2. Modify architecture 
 3. Try other loss function
 
+
 ## Application of Medical Image Overview
 I do a summarization of application from MICCAI 2019 papers [here](./research/application_medical_overview.md)
       |
