@@ -19,37 +19,10 @@ Code references:
 - https://github.com/xf4j/brats18/tree/master/models: (pre_processingN4ITK)
 - https://github.com/wolny/pytorch-3dunet [[2](https://github.com/wolny/pytorch-3dunet)] (5)
 
-### Difference between (3) and (5), what things in (3) should be integrate into (5)?
-- Customized preprocessing data
-
-### Step-by-Step
-1. Train model with only WT label, try to improve it 
-      1.1 with original model, try to modify loss function, preprocessing data,... to get best loss function and data.
-      1.2 With modified architecture
-2. Train model will all labels, in parallel/separate-cascade/end2end cascade
-
-
-|                    | Technique                      | UNet[1]| ResUnet | UNet[2]| Note |
-|--------------------|--------------------------------|--------|---------|--------|------|
-| Original           | Original  + Normalize          |        |         |        |      |
-| Preprocessing      |                                |        |         |        |      |
-|                    | N4ITK                          |        |         |        |      |
-|                    | multiscale                     |        |         |        |      |
-|                    | domain adaption                |        |         |        |      |
-|                    | other transforms               |        |         |        |      |
-| Model Architecture |                                |        |         |        |      |
-|                    | VAE                            |        |         |        |      |
-|                    | Cascade end-to-end             |        |         |        |      |
-|                    | Cascade seperately             |        |         |        |      |
-|                    | ASPP                           |        |         |        |      |
-|                    | Increase network width         |        |         |        |      |
-|                    | Attention with SE block        |        |         |        |      |
-|                    | parallel model training (7)    |        |         |        |      |
-| Loss Function      |                                |        |         |        |      |
-|                    | Focal loss                     |        |         |        |      |
-|                    | Soft loss                      |        |         |        |      |
-| Post processing    |                                |        |         |        |      |
-|                    | CRF                            |        |         |        |      |
+# TODO
+1. Training with DMFNet with k-fold
+2. Modify architecture 
+3. Try other loss function
 
 ## Application of Medical Image Overview
 I do a summarization of application from MICCAI 2019 papers [here](./research/application_medical_overview.md)
