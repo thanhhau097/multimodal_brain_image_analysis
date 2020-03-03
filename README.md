@@ -7,7 +7,19 @@
 ## IDEA
 - Design new model: cascaded, because they are overlap
 - Multi-stage DMF
-- Apply variant of UNet architecture
+- Apply variant of UNet architecture, compare to UNet architecture
+
+| Paper | What can be handled? | Methods | Results |
+|-------|----------------------|---------|---------|
+|       |                      |         |         |
+|       |                      |         |         |
+|       |                      |         |         |
+|       |                      |         |         |
+|       |                      |         |         |
+|       |                      |         |         |
+|       |                      |         |         |
+|       |                      |         |         |
+|       |                      |         |         |
 
 ## Experiments
 My code is located at: https://github.com/thanhhau097/pytorch-3dunet which was folked from https://github.com/wolny/pytorch-3dunet with modification.
