@@ -1,6 +1,10 @@
 # Basic knowledge
 ### How to do a research?
-- How to read a paper? -> https://blog.usejournal.com/advice-on-building-a-machine-learning-career-and-reading-research-papers-by-prof-andrew-ng-f90ac99a0182
+- How to read a paper?
+    - https://blog.usejournal.com/advice-on-building-a-machine-learning-career-and-reading-research-papers-by-prof-andrew-ng-f90ac99a0182
+    - https://pages.cpsc.ucalgary.ca/~pwlfong/Pub/inroads2009.pdf
+- How to do a literature survey?
+    - https://www.cse.ust.hk/ct/fyp/reports/content/literature_survey.html
 
 
 ### What is semantic segmentation?
