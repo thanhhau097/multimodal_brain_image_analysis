@@ -5,6 +5,9 @@
 ## [Literature Review](./research/literature_review.md)
 
 ## IDEA
+Original Result:  0.79574	0.89777	0.84114
+Compare to paper: 80.12       90.62       84.54
+
 - Design new model: cascaded, because they are overlap
 - Multi-stage DMF
 - Apply variant of UNet architecture, compare to UNet architecture
