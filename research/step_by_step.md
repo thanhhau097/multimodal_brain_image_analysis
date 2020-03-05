@@ -34,7 +34,7 @@ https://github.com/thanhhau097/multimodal_brain_image_analysis/blob/master/resea
     - https://github.com/thanhhau097/BraTS-DMFNet (prefer)
     - https://github.com/thanhhau097/pytorch-3dunet
     
-    - Pretrained model: (updating)
+    - Pretrained model: https://drive.google.com/drive/u/0/folders/13VLS7wqBwTiEPMhAhV0TQC-yqJrOSvK5
     
 - Getting new ideas:
     - UNet family architectures: https://github.com/ShawnBIT/UNet-family
