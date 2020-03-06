@@ -36,15 +36,18 @@ Code references:
 - https://github.com/xf4j/brats18/tree/master/models: (pre_processingN4ITK)
 - https://github.com/wolny/pytorch-3dunet [[2](https://github.com/wolny/pytorch-3dunet)] (5)
 
-# TODO
-1. Training with DMFNet with k-fold
-2. Modify architecture 
-3. Try other loss function
-
-| Model |    |  1 |    |    |  2 |    |    |  3 |    |    |  4 |    |    |  5 |    |    | Average |    |
-|:-----:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:-------:|:--:|
-|       | WT | TC | ET | WT | TC | ET | WT | TC | ET | WT | TC | ET | WT | TC | ET | WT |    TC   | ET |
-|  DMF  |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |         |    |
+| Model                                | Params  | FLOPS | Dice ET | Dice WT | Dice TC | Hausdorff95 ET | Hausdorff95 WT | Hausdorff95 TC |
+|--------------------------------------|---------|-------|---------|---------|---------|----------------|----------------|----------------|
+| DMFNet                               | 3880000 |       | 80.12   | 90.62   | 84.54   | 3.06           | 4.66           | 6.44           |
+| DMFNet + MFUnit in skip conntections | 6871490 |       |         |         |         |                |                |                |
+|                                      |         |       |         |         |         |                |                |                |
+|                                      |         |       |         |         |         |                |                |                |
+|                                      |         |       |         |         |         |                |                |                |
+|                                      |         |       |         |         |         |                |                |                |
+|                                      |         |       |         |         |         |                |                |                |
+|                                      |         |       |         |         |         |                |                |                |
+|                                      |         |       |         |         |         |                |                |                |
+|                                      |         |       |         |         |         |                |                |                |
 
 ## Application of Medical Image Overview
 I do a summarization of application from MICCAI 2019 papers [here](./research/application_medical_overview.md)
