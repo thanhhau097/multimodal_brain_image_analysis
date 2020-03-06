@@ -36,9 +36,9 @@ Code references:
 - https://github.com/xf4j/brats18/tree/master/models: (pre_processingN4ITK)
 - https://github.com/wolny/pytorch-3dunet [[2](https://github.com/wolny/pytorch-3dunet)] (5)
 
-| Model                                | Params  | FLOPS | Dice ET | Dice WT | Dice TC | Hausdorff95 ET | Hausdorff95 WT | Hausdorff95 TC |
-|--------------------------------------|---------|-------|---------|---------|---------|----------------|----------------|----------------|
-| DMFNet                               | 3880000 |       | 80.12   | 90.62   | 84.54   | 3.06           | 4.66           | 6.44           |
+|                 Model                |  Params | FLOPS | Dice ET | Dice WT | Dice TC | Hausdorff95 ET | Hausdorff95 WT | Hausdorff95 TC |
+|:------------------------------------:|:-------:|:-----:|:-------:|:-------:|:-------:|:--------------:|:--------------:|:--------------:|
+|                DMFNet                | 3880000 |       |  80.12  |  90.62  |  84.54  |      3.06      |      4.66      |      6.44      |
 | DMFNet + MFUnit in skip conntections | 6871490 |       |         |         |         |                |                |                |
 |                                      |         |       |         |         |         |                |                |                |
 |                                      |         |       |         |         |         |                |                |                |
