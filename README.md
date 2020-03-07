@@ -6,6 +6,7 @@
 
 ## IDEA
 Original Result:  0.79574	0.89777	0.84114
+
 Compare to paper: 80.12       90.62       84.54
 
 - Design new model: cascaded, because they are overlap
@@ -38,7 +39,7 @@ Code references:
 
 |                 Model                 |  Params  | FLOPS | Dice ET | Dice WT | Dice TC | Hausdorff95 ET | Hausdorff95 WT | Hausdorff95 TC |
 |:-------------------------------------:|:--------:|:-----:|:-------:|:-------:|:-------:|:--------------:|:--------------:|:--------------:|
-|                 DMFNet                |  3880000 |       |  80.12  |  **90.62**  |  **84.54**  |      3.06      |      4.66      |      6.44      |
+|                 DMFNet                |  3880000 |       |  80.12 (79.574)  |  **90.62** (89.777)  |  **84.54** (84.114)  |      3.06      |      4.66      |      6.44      |
 |  DMFNet + MFUnit in skip conntections |  6871490 |       |  **81.131** |  90.011 |  84.194 |                |                |                |
 | DMFNet + DMFUnit in skip conntections | 11300299 |       |  79.661 |  89.896 | 84.189  |                |                |                |
 |       Attention Unet                  | 10881302 |       |         |         |         |                |                |                |
