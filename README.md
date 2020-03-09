@@ -46,7 +46,7 @@ Code references:
 |       Attention Unet   (multi module)    | 12345818 |       |         |         |         |                |                |                |
 |        DMFNet + csSE                  |  4110041 |       |         |         |         |                |                |                |
 |   DMFNet + PE (same paper with csSE)  | 4108946  |       |         |         |         |                |                |                |
-|                                       |          |       |         |         |         |                |                |                |
+|      DMFNet + attention gate, focal Tversky loss function  |          |       |         |         |         |                |                |                |
 |                                       |          |       |         |         |         |                |                |                |
 |                                       |          |       |         |         |         |                |                |                |
 |                                       |          |       |         |         |         |                |                |                |
