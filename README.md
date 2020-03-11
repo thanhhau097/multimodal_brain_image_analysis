@@ -40,7 +40,7 @@ Code references:
 | DMFNet + DMFUnit in skip connections | 11300299 |       |  79.661 |  89.896 | 84.189  |                |                |                |
 |       Attention Unet   (one gate)    | 10881302 |       |         |         |         |                |                |                |
 |       Attention Unet   (single module)    | 11226614 |       |         |         |         |                |                |                |
-|       Attention Unet   (multi module)    | 12345818 |    79.571  |      89.42   |   83.14      |         |                |                |                |
+|       Attention Unet   (multi module)    | 12345818 |         |      79.571  |      89.42   |   83.14    |                |                |                |
 |        DMFNet + csSE                  |  4110041 |       |         |         |         |                |                |                |
 |   DMFNet + PE (same paper with csSE)  | 4108946  |       |         |         |         |                |                |                |
 |      DMFNet + attention gate, focal Tversky loss function  |          |       |         |         |         |                |                |                |
