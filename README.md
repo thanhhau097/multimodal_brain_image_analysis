@@ -42,7 +42,7 @@ Code references:
 |       Attention Unet   (single module)    | 11226614 |       |    79.431 |    89.708     |     82.755    |                |                |                |
 |       Attention Unet   (multi module)    | 12345818 |         |      79.571  |      89.42   |   83.14    |                |                |                |
 |        DMFNet + csSE                  |  4110041 |       |         |         |         |                |                |                |
-|   DMFNet + PE (same paper with csSE)  | 4108946  |       |         |         |         |                |                |                |
+|   DMFNet + PE (same paper with csSE)  | 4108946  |       |   71.56 |    82.421     |    71.082     |                |                |                |
 |      DMFNet + attention gate, focal Tversky loss function  |          |       |         |         |         |                |                |                |
 |      DMFNet + separate inputs     (IVD architecture)       |          |       |         |         |         |                |                |                |
 |                 DMFNet + multiscale inputs    (PSP)             |          |       |         |         |         |                |                |                |
