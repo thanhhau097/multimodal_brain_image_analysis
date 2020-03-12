@@ -45,7 +45,7 @@ Code references:
 |   DMFNet + PE (same paper with csSE)  | 4108946  |       |   71.56 |    82.421     |    71.082     |                |                |                |
 |      DMFNet + attention gate, focal Tversky loss function  |          |       |         |         |         |                |                |                |
 |      DMFNet + separate inputs     (IVD architecture)       |          |       |         |         |         |                |                |                |
-|                 DMFNet + multiscale inputs    (PSP)             |      |    |   77.853	  |   89.636      |     **84.723**             |   (1 error file)             |                |                |
+|                 DMFNet + multiscale inputs    (PSP)             |      |    |   77.853	  |   89.636      |     **84.723**             |   (1 error file) good for WT and TC, bad for ET (may be because it is too small)            |                |                |
 |                                       |          |       |         |         |         |                |                |                |
 ## Application of Medical Image Overview
 I do a summarization of application from MICCAI 2019 papers [here](./research/application_medical_overview.md)
