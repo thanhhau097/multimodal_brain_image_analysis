@@ -41,11 +41,11 @@ Code references:
 |       Attention Unet   (one gate)    | 10881302 |       |    79.673 |   89.175      |  83.737       |                |                |                |
 |       Attention Unet   (single module)    | 11226614 |       |    79.431 |    89.708     |     82.755    |                |                |                |
 |       Attention Unet   (multi module)    | 12345818 |         |      79.571  |      89.42   |   83.14    |                |                |                |
-|        DMFNet + csSE                  |  4110041 |       |   79.653 |      89.908   |   **84.566**      |                |                |                |
+|        DMFNet + csSE                  |  4110041 |       |   79.653 |      89.908   |   84.566      |                |                |                |
 |   DMFNet + PE (same paper with csSE)  | 4108946  |       |   71.56 |    82.421     |    71.082     |                |                |                |
 |      DMFNet + attention gate, focal Tversky loss function  |          |       |         |         |         |                |                |                |
 |      DMFNet + separate inputs     (IVD architecture)       |          |       |         |         |         |                |                |                |
-|                 DMFNet + multiscale inputs    (PSP)             |          |       |         |         |         |                |                |                |
+|                 DMFNet + multiscale inputs    (PSP)             |          |   77.853	  |   89.636      |     **84.723**    |         |                |                |                |
 |                                       |          |       |         |         |         |                |                |                |
 ## Application of Medical Image Overview
 I do a summarization of application from MICCAI 2019 papers [here](./research/application_medical_overview.md)
