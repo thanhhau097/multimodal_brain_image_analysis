@@ -47,6 +47,10 @@ Code references:
 |      DMFNet + separate inputs     (IVD architecture)       |          |       |   80.228    |     89.603    |    83.824     |                |                |                |
 |                 DMFNet + multiscale inputs    (PSP)             |      |    |   77.853	  |   89.636      |     **84.723**             |   (1 error file) good for WT and TC, bad for ET (may be because it is too small)            |                |                |
 |                                       |          |       |         |         |         |                |                |                |
+
+### Note:
+- MFUnit is enough for multiscale and attention
+- We can improve by handling the difference between encoder features and decoder features, using multiscale input
 ## Application of Medical Image Overview
 I do a summarization of application from MICCAI 2019 papers [here](./research/application_medical_overview.md)
       |
