@@ -46,7 +46,7 @@ Code references:
 |      DMFNet + attention gate, focal Tversky loss function  |          |       |         |         |         |                |           
 |      DMFNet + separate inputs     (IVD architecture)       |          |       |   80.228    |     89.603    |    83.824     |                |    
 |                 DMFNet + multiscale inputs    (PSP)             |      |    |   77.853	  |   89.636      |     **84.723**             |   (1 error file) good for WT and TC, bad for ET (may be because it is too small)            | 
-|                 DMFNet + multiscale weighted inputs    (PSP)             |      |    |   0.7958  |   90.4      |     83.401            |   (1 error file) good for WT and TC, bad for ET (may be because it is too small)            | 
+|                 DMFNet + multiscale weighted inputs    (PSP)             |      |    |   79.471  |   90.284      |     84302            |         | 
 |                                       |          |       |         |         |         |                |                |                |
 
 ### Note:
