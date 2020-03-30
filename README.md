@@ -37,6 +37,7 @@ Code references:
 |:-------------------------------------:|:--------:|:-----:|:-------:|:-------:|:-------:|:--------------:|
 |                 DMFNet                |  3880000 |       |  80.12 (79.574)  |  **90.62** (89.777)  |  84.54 (84.114)  |    |     
 |  DMFNet + MFUnit in skip connections |  6871490 |       |  **81.131** |  90.011 |  84.194 |                |                
+|  DMFNet + MFUnit in skip connections + interconnect |   |             |         |         |                |                |                
 | DMFNet + DMFUnit in skip connections | 11300299 |       |  79.661 |  89.896 | 84.189  |                |    
 |       Attention Unet   (one gate)    | 10881302 |       |    79.673 |   89.175      |  83.737       |                |               
 |       Attention Unet   (single module)    | 11226614 |       |    79.431 |    89.708     |     82.755    |                |              
