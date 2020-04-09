@@ -35,8 +35,10 @@ Code references:
 
 |                 Model                 |  Params  | FLOPS | Dice ET | Dice WT | Dice TC |      Note      |
 |:-------------------------------------:|:--------:|:-----:|:-------:|:-------:|:-------:|:--------------:|
-|                 DMFNet                |  3880000 |       |  80.12 (79.574)  |  **90.62** (89.777)  |  84.54 (84.114)  |    |     
-|  DMFNet + MFUnit in skip connections |  6871490 |       |  **81.131** |  90.011 |  84.194 |                |                
+|                 DMFNet                |  3880000 |       |  80.12 (79.574)  |  **90.62** (89.777)  |  84.54 (84.114)  |    | 
+|  DMFNet + MFUnit in skip connections |  6871490 |       |  **81.131** |  90.011       |  84.194        |                |  
+|  DMFNet + multiscale inputs    (PSP) |          |       |   77.853    |   89.636      |     **84.723** |   (1 error file) good for WT and TC, bad for ET (may be because it is too small)            | 
+|  DMFNet + multiscale weighted inputs    (PSP)             |      |    |   79.471  |   90.284      |     84302            |         | 
 |  DMFNet + MFUnit in skip connections + interconnect |   |             |         |         |                |                |                
 | DMFNet + DMFUnit in skip connections | 11300299 |       |  79.661 |  89.896 | 84.189  |                |    
 |       Attention Unet   (one gate)    | 10881302 |       |    79.673 |   89.175      |  83.737       |                |               
@@ -45,10 +47,8 @@ Code references:
 |        DMFNet + csSE                  |  4110041 |       |   79.653 |      89.908   |   84.566      |                |             
 |   DMFNet + PE (same paper with csSE)  | 4108946  |       |   71.56 |    82.421     |    71.082     |                |             
 |      DMFNet + attention gate, focal Tversky loss function  |          |       |         |         |         |                |           
-|      DMFNet + separate inputs     (IVD architecture)       |          |       |   80.228    |     89.603    |    83.824     |                |    
-|                 DMFNet + multiscale inputs    (PSP)             |      |    |   77.853	  |   89.636      |     **84.723**             |   (1 error file) good for WT and TC, bad for ET (may be because it is too small)            | 
-|                 DMFNet + multiscale weighted inputs    (PSP)             |      |    |   79.471  |   90.284      |     84302            |         | 
-|                                       |          |       |         |         |         |                |                |                |
+|      DMFNet + separate inputs     (IVD architecture)       |          |       |   80.228    |     89.603    |    83.824     |                |
+
 
 ### Note:
 - MFUnit is enough for multiscale and attention
