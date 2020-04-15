@@ -39,6 +39,10 @@ Code references:
 |  DMFNet + MFUnit in skip connections |  6871490 |       |  **81.131** |  90.011       |  84.194        |                |  
 |  DMFNet + multiscale inputs    (PSP) |          |       |   77.853    |   89.636      |     **84.723** |   (1 error file) good for WT and TC, bad for ET (may be because it is too small)            | 
 |  DMFNet + multiscale weighted inputs    (PSP)             |      |    |   79.471  |   90.284      |     84302            |         | 
+|  BiFPNNet - 1 layer - 128 hidden     |      |    |   80.518 |   89.458      |  83.669  |         | 
+|  BiFPNNet - 1 layer - 64 hidden     |      |    |    |        |    |         | 
+|  BiFPNNet - 2 layer - 64 hidden     |      |    |    |        |    |         | 
+|  BiFPNNet - 3 layer - 64 hidden     |      |    |    |        |    |         | 
 |  DMFNet + MFUnit in skip connections + interconnect |   |             |         |         |                |                |                
 | DMFNet + DMFUnit in skip connections | 11300299 |       |  79.661 |  89.896 | 84.189  |                |    
 |       Attention Unet   (one gate)    | 10881302 |       |    79.673 |   89.175      |  83.737       |                |               
