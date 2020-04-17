@@ -36,13 +36,16 @@ Code references:
 |                 Model                 |  Params  | FLOPS | Dice ET | Dice WT | Dice TC |      Note      |
 |:-------------------------------------:|:--------:|:-----:|:-------:|:-------:|:-------:|:--------------:|
 |                 DMFNet                |  3880000 |       |  80.12 (79.574)  |  **90.62** (89.777)  |  84.54 (84.114)  |    | 
-|  DMFNet + MFUnit in skip connections |  6871490 |       |  **81.131** |  90.011       |  84.194        |                |  
-|  DMFNet + multiscale inputs    (PSP) |          |       |   77.853    |   89.636      |     **84.723** |   (1 error file) good for WT and TC, bad for ET (may be because it is too small)            | 
+|  DMFNet + MFUnit in skip connections |  6871490 |       |  81.131 |  90.011       |  84.194        |                |  
+|  DMFNet + multiscale inputs    (PSP) |          |       |   77.853    |   89.636      |     84.723 |   (1 error file) good for WT and TC, bad for ET (may be because it is too small)            | 
 |  DMFNet + multiscale weighted inputs    (PSP)             |      |    |   79.471  |   90.284      |     84302            |         | 
-|  BiFPNNet - 1 layer - 128 hidden     |      |    |   80.518 |   89.458      |  83.669  |         | 
-|  BiFPNNet - 1 layer - 64 hidden     |      |    |    |        |    |         | 
-|  BiFPNNet - 2 layer - 64 hidden     |      |    |    |        |    |         | 
-|  BiFPNNet - 3 layer - 64 hidden     |      |    |    |        |    |         | 
+|  BiFPNNet - 1 layer - 128 hidden                 |      |    |   80.518 |   89.458      |  83.669  |         | 
+|  BiFPNNet - 1 layer - 64 hidden  (concatenate)   |   1.38M   |    |   79.643 |   90.633     |  84.919  |         | 
+|  BiFPNNet - 2 layer - 64 hidden  (concatenate)   |   1.76M   |    |   78.634 |    90.661    |  **84.990**  |         | 
+|  BiFPNNet - 3 layer - 64 hidden  (concatenate)   |   2.14M   |    |   **81.191** |    89.791    |  84.423  |         | 
+|  BiFPNNet - 1 layer - 64 hidden  (add)   |   1.07M   |    |    |        |    |         | 
+|  BiFPNNet - 2 layer - 64 hidden  (add)   |   1.14M   |    |    |        |    |         | 
+|  BiFPNNet - 3 layer - 64 hidden  (add)   |   1.21M   |    |    |        |    |         | 
 |  DMFNet + MFUnit in skip connections + interconnect |   |             |         |         |                |                |                
 | DMFNet + DMFUnit in skip connections | 11300299 |       |  79.661 |  89.896 | 84.189  |                |    
 |       Attention Unet   (one gate)    | 10881302 |       |    79.673 |   89.175      |  83.737       |                |               
