@@ -41,7 +41,7 @@ Code references:
 |  DMFNet + multiscale weighted inputs    (PSP)             |      |    |   79.471  |   90.284      |     84302            |         | 
 |  BiFPNNet - 1 layer - 128 hidden                 |      |    |   80.518 |   89.458      |  83.669  |         | 
 |  BiFPNNet - 1 layer - 64 hidden  (concatenate)   |   1.38M   |    |   79.643 |   90.633     |  84.919  |         | 
-|  BiFPNNet - 2 layer - 64 hidden  (concatenate)   |   1.76M   |    |   78.634 |    **90.661**    |  **84.990**  |         | 
+|  BiFPNNet - 2 layer - 64 hidden  (concatenate)   |   1.76M   |    |   80.075 |    **90.678**    |  **85.043**  |         | 
 |  BiFPNNet - 3 layer - 64 hidden  (concatenate)   |   2.14M   |    |   **81.191** |    89.791    |  84.423  |         | 
 |  BiFPNNet - 1 layer - 64 hidden  (add)   |   1.07M   |    |    |        |    |         | 
 |  BiFPNNet - 2 layer - 64 hidden  (add)   |   1.14M   |    |    |        |    |         | 
