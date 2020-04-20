@@ -35,10 +35,10 @@ Code references:
 
 |                 Model                 |  Params  | FLOPS | Dice ET | Dice WT | Dice TC |      Note      |
 |:-------------------------------------:|:--------:|:-----:|:-------:|:-------:|:-------:|:--------------:|
-|                 DMFNet                |  3880000 |       |  80.12 (79.574)  |  90.62 (89.777)  |  84.54 (84.114)  |    | 
-|  DMFNet + MFUnit in skip connections |  6871490 |       |  81.131 |  90.011       |  84.194        |                |  
-|  DMFNet + multiscale inputs    (PSP) |          |       |   77.853    |   89.636      |     84.723 |   (1 error file) good for WT and TC, bad for ET (may be because it is too small)            | 
-|  DMFNet + multiscale weighted inputs    (PSP)             |      |    |   79.471  |   90.284      |     84302            |         | 
+|                 DMFNet                |  3.88M |       |  80.12 (79.574)  |  90.62 (89.777)  |  84.54 (84.114)  |    | 
+|  DMFNet + MFUnit in skip connections |  6.87M |       |  81.131 |  90.011       |  84.194        |                |  
+|  DMFNet + multiscale inputs    (PSP) |     7M     |       |   77.853    |   89.636      |     84.723 |   (1 error file) good for WT and TC, bad for ET (may be because it is too small)            | 
+|  DMFNet + multiscale weighted inputs    (PSP)             |  7M    |    |   79.471  |   90.284      |     84302            |         | 
 |  BiFPNNet - 1 layer - 128 hidden                 |      |    |   80.518 |   89.458      |  83.669  |         | 
 |  BiFPNNet - 1 layer - 64 hidden  (concatenate)   |   1.38M   |    |   79.643 |   90.633     |  84.919  |         | 
 |  BiFPNNet - 2 layer - 64 hidden  (concatenate)   |   1.76M   |    |   80.075 |    **90.678**    |  **85.043**  |         | 
